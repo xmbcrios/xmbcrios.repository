@@ -34,7 +34,9 @@ YOUTUBE_CHANNEL_ID10 = "endorfinanet"
 YOUTUBE_CHANNEL_ID11 = "WebTvSomzoom"
 YOUTUBE_CHANNEL_ID12 = "fecastanhari"
 YOUTUBE_CHANNEL_ID13 = "UCwxu7-JP0zrHqccjEzrSW6g"
-
+YOUTUBE_CHANNEL_ID14 = "vcsabiavideos"
+YOUTUBE_CHANNEL_ID15 = "baixaki"
+YOUTUBE_CHANNEL_ID16 = "canalmegacurioso"
 
 # Ponto de Entrada
 def run():
@@ -67,6 +69,24 @@ def main_list(params):
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 02
+	plugintools.log("baixaki.main_list "+repr(params))
+	plugintools.log("baixaki.run")
+	plugintools.add_item(
+	title="TecMundo",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID15+"/",
+	thumbnail= 'http://zip.net/bdsgY2',
+    fanart= 'http://zip.net/bxsgND',
+	folder = True )
+	# Canal 03
+	plugintools.log("canalmegacurioso.main_list "+repr(params))
+	plugintools.log("canalmegacurioso.run")
+	plugintools.add_item(
+	title="Mega Curioso",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID16+"/",
+	thumbnail= 'http://zip.net/bqshv9',
+    fanart= 'http://zip.net/bxsgND',
+	folder = True )
+# Canal 04
 	plugintools.log("canalvocenaosabia.main_list "+repr(params))
 	plugintools.log("canalvocenaosabia.run")
 	plugintools.add_item(
@@ -75,7 +95,16 @@ def main_list(params):
     thumbnail= 'http://zip.net/bgsfpt',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 03
+# Canal 05
+	plugintools.log("vcsabiavideos.main_list "+repr(params))
+	plugintools.log("vcsabiavideos.run")
+	plugintools.add_item(
+	title="Você Sabia?",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID14+"/",
+    thumbnail= 'http://zip.net/bdsgYq',
+    fanart= 'http://zip.net/bxsgND',
+	folder = True )
+# Canal 06
 	plugintools.log("cangaianerd.main_list "+repr(params))
 	plugintools.log("cangaianerd.run")
 	plugintools.add_item(
@@ -84,7 +113,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bksfGS',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 04
+# Canal 07
 	plugintools.log("tokudoc.main_list "+repr(params))
 	plugintools.log("tokudoc.run")
 	plugintools.add_item(
@@ -93,7 +122,7 @@ def main_list(params):
 	thumbnail= 'http://zip.net/bmsfDx',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 05
+# Canal 08
 	plugintools.log("UCwxu7-JP0zrHqccjEzrSW6g.main_list "+repr(params))
 	plugintools.log("UCwxu7-JP0zrHqccjEzrSW6g.run")
 	plugintools.add_item(
@@ -102,7 +131,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bksfLK',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-	# Canal 06
+	# Canal 09
 	plugintools.log("BrazilinSoccer.main_list "+repr(params))
 	plugintools.log("BrazilinSoccer.run")
 	plugintools.add_item(
@@ -111,7 +140,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bgsfsc',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 07
+# Canal 10
 	plugintools.log("Desimpedidos.main_list "+repr(params))
 	plugintools.log("Desimpedidos.run")
 	plugintools.add_item(
@@ -120,7 +149,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bdsf7m',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 08
+# Canal 11
 	plugintools.log("TheClaudiojp.main_list "+repr(params))
 	plugintools.log("TheClaudiojp.run")
 	plugintools.add_item(
@@ -129,7 +158,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bnsfPJ',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 09
+# Canal 12
 	plugintools.log("iberethenorio.main_list "+repr(params))
 	plugintools.log("iberethenorio.run")
 	plugintools.add_item(
@@ -138,7 +167,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bxsgPQ',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 10
+# Canal 13
 	plugintools.log("Boomoficial.main_list "+repr(params))
 	plugintools.log("Boomoficial.run")
 	plugintools.add_item(
@@ -147,7 +176,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bnsfQw',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 11
+# Canal 14
 	plugintools.log("endorfinanet.main_list "+repr(params))
 	plugintools.log("endorfinanet.run")
 	plugintools.add_item(
@@ -156,7 +185,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bysgh2',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 12
+# Canal 15
 	plugintools.log("WebTvSomzoom.main_list "+repr(params))
 	plugintools.log("WebTvSomzoom.run")
 	plugintools.add_item(
@@ -165,7 +194,7 @@ def main_list(params):
     thumbnail= 'http://zip.net/bxsgQQ',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 13
+# Canal 16
 	plugintools.log("fecastanhari.main_list "+repr(params))
 	plugintools.log("fecastanhari.run")
 	plugintools.add_item(
