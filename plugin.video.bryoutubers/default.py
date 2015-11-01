@@ -31,12 +31,14 @@ YOUTUBE_CHANNEL_ID7 = "TheClaudiojp"
 YOUTUBE_CHANNEL_ID8 = "iberethenorio"
 YOUTUBE_CHANNEL_ID9 = "Boomoficial"
 YOUTUBE_CHANNEL_ID10 = "endorfinanet"
-YOUTUBE_CHANNEL_ID11 = "WebTvSomzoom"
+YOUTUBE_CHANNEL_ID11 = "laliga"
 YOUTUBE_CHANNEL_ID12 = "fecastanhari"
 YOUTUBE_CHANNEL_ID13 = "UCwxu7-JP0zrHqccjEzrSW6g"
 YOUTUBE_CHANNEL_ID14 = "vcsabiavideos"
 YOUTUBE_CHANNEL_ID15 = "baixaki"
 YOUTUBE_CHANNEL_ID16 = "canalmegacurioso"
+YOUTUBE_CHANNEL_ID17= "eldiadespuesplus"
+
 
 # Ponto de Entrada
 def run():
@@ -58,7 +60,6 @@ def run():
 
 # Menu Principal	
 def main_list(params):
-
 # Canal 01
 	plugintools.log("moshipery.main_list "+repr(params))
 	plugintools.log("moshipery.run")
@@ -92,7 +93,7 @@ def main_list(params):
 	plugintools.add_item(
 	title="Você Não Sabia",
 	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID2+"/",
-    thumbnail= 'http://zip.net/bgsfpt',
+    thumbnail= 'http://zip.net/bysjRL',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 05
@@ -119,7 +120,7 @@ def main_list(params):
 	plugintools.add_item(
 	title="Tokudoc",
 	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID3+"/",
-	thumbnail= 'http://zip.net/bmsfDx',
+	thumbnail= 'http://zip.net/bxskqs',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 08
@@ -158,7 +159,26 @@ def main_list(params):
     thumbnail= 'http://zip.net/bnsfPJ',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
-# Canal 12
+# Canal 15
+	plugintools.log("laliga.main_list "+repr(params))
+	plugintools.log("laliga.run")
+	plugintools.add_item(
+	title="Canal Laliga Espanhola",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID11+"/",
+    thumbnail= 'http://zip.net/bwshZx',
+    fanart= 'http://zip.net/bxsgND',
+	folder = True )
+	# Canal 15
+	plugintools.log("eldiadespuesplus.main_list "+repr(params))
+	plugintools.log("eldiadespuesplus.run")
+	plugintools.add_item(
+	title="El Día Después",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID17+"/",
+    thumbnail= 'http://zip.net/bksjlt',
+    fanart= 'http://zip.net/bxsgND',
+	folder = True )
+		
+	# Canal 12
 	plugintools.log("iberethenorio.main_list "+repr(params))
 	plugintools.log("iberethenorio.run")
 	plugintools.add_item(
