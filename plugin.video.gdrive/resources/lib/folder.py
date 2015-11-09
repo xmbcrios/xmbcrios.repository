@@ -16,28 +16,34 @@
 
 
 '''
+import urllib
 
 #
 #
 #
-class downloadfile:
-
+class folder:
+    # CloudService v0.2.4
+    # - add fanart [2016/06/19]h
 
     ##
     ##
-    def __init__(self, url, name):
-        self.name = name
-        self.url = url
+    def __init__(self, id, title, fanart='', thumb=''):
+        self.id = id
+        self.title = title
+        self.fanart = fanart
+        self.thumb = thumb
+
+    def displayTitle(self):
+        return urllib.unquote(self.title)
 
 
     def __repr__(self):
         return '{}: {} {}'.format(self.__class__.__name__,
-                                  self.name)
+                                  self.title)
 
     def __cmp__(self, other):
-        if hasattr(other, 'name'):
-            return self.name.__cmp__(other.name)
+        if hasattr(other, 'title'):
+            return self.title.__cmp__(other.title)
 
     def getKey(self):
-        return self.name
-
+        return self.title
