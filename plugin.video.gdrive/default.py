@@ -658,7 +658,7 @@ else:
 
         # url provided; provide public option
         if mode=='streamurl':
-            options.append('public')
+            options.append('Inicair o video')
             accounts.append('public')
 
         ret = xbmcgui.Dialog().select(addon.getLocalizedString(30120), options)
