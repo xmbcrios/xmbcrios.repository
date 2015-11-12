@@ -1,3 +1,8 @@
-[B]0.0.1[/B]
+Version [B]0.0.3 [/B] - 11/11/2015 
+- Modification das Cores do texto da barra de menus. 
+- Substituicion dos Bottons de tela de execucao de audio e video. 
 
-- Initial release
+Version [B]0.0.2[/B] - 08/11/2015 
+- Personalizacao da Skin. 
+
+
