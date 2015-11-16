@@ -220,7 +220,7 @@
   </extension>
 </addon>
 
-<addon id="skin.confluence.xmbcrios.mod" name="Xmbcrios Helix Confluence Mod.Â©" provider-name="xmbcrios" version="0.0.3">
+<addon id="skin.confluence.xmbcrios.mod" name="Xmbcrios Helix Confluence Mod.Â©" provider-name="xmbcrios" version="0.0.4">
   <requires>
 		<import addon="xbmc.gui" version="5.3.0" />
   </requires>
