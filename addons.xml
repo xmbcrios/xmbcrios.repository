@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bryoutubers" name="BR Youtubers" version="1.2.3" provider-name="Xmbcrios">
+<addon id="plugin.video.bryoutubers" name="BR Youtubers" version="1.2.4" provider-name="Xmbcrios">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -35,7 +35,7 @@
     <description lang="en">Descubra as maiores curiosidades sobre desenhos, sÃ©ries, filmes e games, futebol e muito mais... Aqui vocÃª assiste conteÃºdo de verdade! agora diretamente no Kodi</description>
     <platform>all</platform>
     <forum></forum>
-    <website>canalvocenaosabia.blogspot.com</website>
+    <website>facebook.com/mauricioriosonline</website>
   </extension>
 </addon>
 

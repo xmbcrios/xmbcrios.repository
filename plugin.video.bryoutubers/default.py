@@ -31,13 +31,15 @@ YOUTUBE_CHANNEL_ID7 = "TheClaudiojp"
 YOUTUBE_CHANNEL_ID8 = "iberethenorio"
 YOUTUBE_CHANNEL_ID9 = "Boomoficial"
 YOUTUBE_CHANNEL_ID10 = "endorfinanet"
-YOUTUBE_CHANNEL_ID11 = "laliga"
-YOUTUBE_CHANNEL_ID12 = "fecastanhari"
-YOUTUBE_CHANNEL_ID13 = "UCwxu7-JP0zrHqccjEzrSW6g"
+YOUTUBE_CHANNEL_ID11 = "UC-wcdrzucnlKGBjyEUaEWaQ"
+YOUTUBE_CHANNEL_ID12 = "UCFJA_vzYHpbHhoOTqQp93xQ"
+YOUTUBE_CHANNEL_ID13 = "UC9U4nIDyIzzelXrjNQXNvxA"
 YOUTUBE_CHANNEL_ID14 = "vcsabiavideos"
 YOUTUBE_CHANNEL_ID15 = "baixaki"
 YOUTUBE_CHANNEL_ID16 = "canalmegacurioso"
 YOUTUBE_CHANNEL_ID17= "eldiadespuesplus"
+YOUTUBE_CHANNEL_ID20= "RadioGlobo"
+
 
 
 # Ponto de Entrada
@@ -111,7 +113,7 @@ def main_list(params):
 	plugintools.add_item(
 	title="Cangaia Nerd",
 	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID6+"/",
-    thumbnail= 'http://zip.net/bksfGS',
+    thumbnail= 'http://zip.net/bqsTkr',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 07
@@ -124,12 +126,12 @@ def main_list(params):
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 08
-	plugintools.log("UCwxu7-JP0zrHqccjEzrSW6g.main_list "+repr(params))
-	plugintools.log("UCwxu7-JP0zrHqccjEzrSW6g.run")
+	plugintools.log("UC9U4nIDyIzzelXrjNQXNvxA.main_list "+repr(params))
+	plugintools.log("UC9U4nIDyIzzelXrjNQXNvxA.run")
 	plugintools.add_item(
-	title="Futebol Vídeos HD",
+	title="Pânico Jovem Pan",
 	url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID13+"/",
-    thumbnail= 'http://zip.net/bksfLK',
+    thumbnail= 'http://zip.net/bhsSGn',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 	# Canal 09
@@ -160,12 +162,12 @@ def main_list(params):
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 15
-	plugintools.log("laliga.main_list "+repr(params))
-	plugintools.log("laliga.run")
+	plugintools.log("UC-wcdrzucnlKGBjyEUaEWaQ.main_list "+repr(params))
+	plugintools.log("UC-wcdrzucnlKGBjyEUaEWaQ.run")
 	plugintools.add_item(
-	title="Canal Laliga Espanhola",
-	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID11+"/",
-    thumbnail= 'http://zip.net/bwshZx',
+	title="Jovem Pan Morning Show",
+	url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID11+"/",
+    thumbnail= 'http://zip.net/brsSr3',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 	# Canal 15
@@ -206,21 +208,21 @@ def main_list(params):
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 15
-	plugintools.log("WebTvSomzoom.main_list "+repr(params))
-	plugintools.log("WebTvSomzoom.run")
+	plugintools.log("RadioGlobo.main_list "+repr(params))
+	plugintools.log("RadioGlobo.run")
 	plugintools.add_item(
-	title="TV Somzoom",
-	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID11+"/",
-    thumbnail= 'http://zip.net/bxsgQQ',
+	title="Radio Globo",
+	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID20+"/",
+    thumbnail= 'http://zip.net/bdsSV2',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 # Canal 16
-	plugintools.log("fecastanhari.main_list "+repr(params))
-	plugintools.log("fecastanhari.run")
+	plugintools.log("UCFJA_vzYHpbHhoOTqQp93xQ.main_list "+repr(params))
+	plugintools.log("UCFJA_vzYHpbHhoOTqQp93xQ.run")
 	plugintools.add_item(
-	title="Canal Nostalgia",
-	url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID12+"/",
-    thumbnail= 'http://zip.net/bmsfPt',
+	title="Minha Infância",
+	url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID12+"/",
+    thumbnail= 'http://zip.net/bbsR9H',
     fanart= 'http://zip.net/bxsgND',
 	folder = True )
 	
